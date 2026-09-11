@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "webhook-lens"
+version = "0.1.0"
+description = "Zero-dependency local webhook catcher and HTTP request inspector with live colored terminal output."
+readme = "README.md"
+authors = [{ name = "ibrahimali111" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["webhook", "inspector", "api-testing", "cli", "debugging"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+]
+
+[project.scripts]
+webhook-lens = "webhook_lens:main"

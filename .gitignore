@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+webhooks_history.json
+*.egg-info/
+dist/
+build/
+.DS_Store
